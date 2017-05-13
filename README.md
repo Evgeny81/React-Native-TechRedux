@@ -57,4 +57,13 @@ communication between React and Redux.
 6. Connect calls mapStateToProps and returns object.
 
 7. Props goes to LibraryList.
+
+Another approach:
+
+1. User presses library.
+2. Action creator.
+3. Rerun reducers.
+4. mapStateToProps.
+5. Components rerender.
+6. View updates. (Layout Animation is here.)
  
