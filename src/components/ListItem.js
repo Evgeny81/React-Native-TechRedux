@@ -14,7 +14,7 @@ class ListItem extends Component {
         LayoutAnimation.spring();
     }
 
-    renderDescrioption() {
+    renderDescription() {
         const{ library, expanded } = this.props;
         if (expanded) {
             return (
@@ -40,7 +40,7 @@ class ListItem extends Component {
                             {title}
                         </Text>
                     </CardSection>
-                    {this.renderDescrioption()}
+                    {this.renderDescription()}
                 </View>
             </TouchableWithoutFeedback>
 
