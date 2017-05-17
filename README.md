@@ -4,7 +4,7 @@ Redux.
 
 Action -> Reducer -> State
 
-Action - an plain JS object that tells the reducer how to change its data. 
+Action - a plain JS object that tells the reducer how to change its data. 
 Requirement: must have type property. Action creator - js function, that returns an action.
 
 Reducer - a function that returns (produces) some data. In other words, returns application state.
